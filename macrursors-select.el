@@ -1,3 +1,5 @@
+;;; macrursors-select.el --- Macro visualizer selection -*- lexical-binding: t; -*-
+
 (require 'macrursors)
 (require 'thingatpt)
 (require 'cl)
@@ -138,3 +140,4 @@ repeatedly by pressing `\\<macrursors-mark-map>\\[macrursors-select]'."
 (define-key macrursors-mark-map (kbd "C-g") #'macrursors-select-clear)
 
 (provide 'macrursors-select)
+;;; macrursors-select.el ends here
